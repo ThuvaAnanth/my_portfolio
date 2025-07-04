@@ -1,0 +1,166 @@
+@import "../../_globalColor";
+
+.design-process-main {
+  width: 90%;
+  padding: 60px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.design-process-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.process-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: $titleColor;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  line-height: 1.4;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  overflow: visible;
+}
+
+.process-subtitle {
+  font-size: 1.25rem;
+  color: $subTitle;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.process-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.process-step {
+  background: $lightBackground1;
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
+    border-color: rgba(99, 102, 241, 0.3);
+  }
+
+  &.dark-mode {
+    background: $darkBackground;
+    color: $textColorDark;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    
+    &:hover {
+      box-shadow: 0 20px 40px rgba(99, 102, 241, 0.4);
+    }
+  }
+}
+
+.step-number {
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
+}
+
+.step-content {
+  margin-top: 20px;
+}
+
+.step-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $titleColor;
+  margin-bottom: 15px;
+
+  .dark-mode & {
+    color: $textColorDark;
+  }
+}
+
+.step-description {
+  font-size: 1rem;
+  color: $textColor;
+  line-height: 1.6;
+
+  .dark-mode & {
+    color: #d1d5db;
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .design-process-main {
+    width: 95%;
+    padding: 40px 15px;
+  }
+
+  .process-title {
+    font-size: 2.5rem;
+  }
+
+  .process-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .process-timeline {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .process-step {
+    padding: 25px;
+  }
+
+  .step-number {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .cta-card {
+    padding: 30px 20px;
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .process-title {
+    font-size: 2rem;
+  }
+
+  .step-title {
+    font-size: 1.3rem;
+  }
+
+  .cta-card h3 {
+    font-size: 1.5rem;
+  }
+}
