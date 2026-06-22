@@ -175,6 +175,17 @@ const bigProjects = {
   subtitle: "UI/UX DESIGN PROJECTS SHOWCASING USER-CENTERED SOLUTIONS",
   projects: [
     {
+      image: require("./assets/images/images (1).jpeg"),
+      projectName: "AeroTime Management Platform",
+      projectDesc: "Developed a smart aviation duty management application for pilots to calculate flight duty periods, track flight history, and manage airport-related operational activities efficiently.",
+      footerLink: [
+        {
+          name: "View Prototype",
+          url: "https://www.figma.com/proto/0D9zR1ukrUBISmZi3wbzkx/FDP?page-id=621%3A957&node-id=1139-656&p=f&viewport=567%2C392%2C0.08&t=C68kZ7fOeUSg3YBe-1&scaling=scale-down&content-scaling=fixed"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/th (1).jpeg"),
       projectName: "Crisis Management System",
       projectDesc: "Comprehensive web application for emergency response management featuring intuitive dashboards, real-time notifications, and streamlined workflows for crisis coordination teams.",
