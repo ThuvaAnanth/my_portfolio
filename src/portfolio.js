@@ -197,13 +197,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/th (2).jpeg"),
-      projectName: "FIDS - Flight Information System",
-      projectDesc: "Flight Information Display System with real-time data visualization, designed for optimal readability and quick information processing in airport environments.",
+      image: require("./assets/images/OIP.jpeg"),
+      projectName: "Nandhu’s Kitchen Menu Design",
+      projectDesc: "Designed a premium food promotional menu and branding poster using Canva for an authentic Jaffna cuisine restaurant, focusing on customer engagement, product visibility, and marketing-driven visual hierarchy.",
       footerLink: [
         {
           name: "View Prototype",
-          url: "https://www.figma.com/proto/NmMDI3MYMzsMqQ1JWjdYge/FIDS?page-id=178%3A4&node-id=385-61&t=LqBRKeWWwP9riQzY-1"
+          url: "https://www.canva.com/design/DAHL91mVkLQ/-2VKeziLwvnq2v1HIOdcWA/edit"
         }
       ]
     },
@@ -219,24 +219,24 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/th (4).jpeg"),
-      projectName: "Aero Luggage Tracker",
-      projectDesc: "Mobile application for luggage tracking with intuitive user interface, real-time updates, and seamless user experience. Built with Kotlin and designed in Figma.",
+      image: require("./assets/images/OIP (1).jpeg"),
+      projectName: "Nandhu’s Kitchen – Menu Poster v2",
+      projectDesc: "Designed a professional restaurant menu poster in Canva for an authentic Jaffna cuisine brand, focusing on attractive food presentation, clear menu structure, and strong brand visibility for marketing and customer engagement.",
       footerLink: [
         {
           name: "View Prototype",
-          url: "https://www.figma.com/proto/B1rD1h0yXfS8t06OBZimjK/TagTracker-final?page-id=34%3A1361&node-id=40-1844&p=f&viewport=554%2C232%2C0.18&t=B0bvO7OSdRbF4e83-1&scaling=scale-down&content-scaling=fixed"
+          url: "https://www.canva.com/design/DAHH1Tf8svk/Ado0MIh1SjXtvHUkHq781g/edit"
         }
       ]
     },
     {
-      image: require("./assets/images/th (5).jpeg"),
-      projectName: "GSA Automation Platform",
-      projectDesc: "Comprehensive automation platform for Ground Service Agent operations, featuring dashboard interfaces and workflow optimization for airport ground services.",
+      image: require("./assets/images/OIP (2).jpeg"),
+      projectName: "Corrado’s Restaurant – Menu Design",
+      projectDesc: "Designed a promotional lunch menu in Canva with clear food sections, pricing, and an attractive layout to improve customer engagement and restaurant marketing.",
       footerLink: [
         {
           name: "View Prototype",
-          url: "https://www.figma.com/proto/x6iEwX1ioaFvqLdieNEQYR/GSA-Automation?page-id=0%3A1&node-id=551-638&p=f&viewport=-1406%2C-537%2C0.08&t=9k10l4BuENgM1yB3-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=551%3A638"
+          url: "https://www.canva.com/design/DAHINZgeVXU/Y6TV2YicdzvxzCAXJw0Jcg/edit"
         }
       ]
     },
@@ -248,17 +248,6 @@ const bigProjects = {
         {
           name: "View Prototype",
           url: "https://www.figma.com/proto/BEmfAxhvH6XRpGA4JKlvAU/Adhoc?page-id=417%3A638&node-id=706-2574&viewport=410%2C322%2C0.02&t=ykk466YrdDrVHoGe-1&scaling=scale-down&content-scaling=fixed"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/th (7).jpeg"),
-      projectName: "YouLookup - Mobile Discovery",
-      projectDesc: "Mobile application focused on discovery and search functionality, featuring modern UI patterns and smooth user interactions designed for optimal mobile experience.",
-      footerLink: [
-        {
-          name: "View Prototype",
-          url: "https://www.figma.com/proto/eOTpBkzFmxut50ju5PLyNv/YOULOOKUP?page-id=96%3A233&node-id=116-361&p=f&viewport=308%2C394%2C0.77&t=BdrwAvMLcDOP7Xo0-1&scaling=min-zoom&content-scaling=fixed"
         }
       ]
     }

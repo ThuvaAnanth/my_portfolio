@@ -1,4 +1,4 @@
-﻿import React, { useContext } from "react";
+import React, { useContext } from "react";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./ContactSection.scss";
